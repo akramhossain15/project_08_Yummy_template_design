@@ -1,0 +1,420 @@
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Tilt Prism', cursive; */
+
+/* custom css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar css start */
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 10px;
+    margin: 0 5px;
+    
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: green;
+    border-bottom: 1px solid green;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    
+}
+.primary-btn :hover{
+    color: red;
+    background: transparent;
+    border: 1px solid red;
+}
+.nav-bg-change{
+    background: #38bdf8 !important;
+    transition: 0.8s;
+}
+/* banner section start */
+.banner-left-section h1{
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 70px;   
+}
+.banner{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 130px;
+    padding-bottom: 40px;
+}
+.banner-section{
+    background: #e2e8f0;
+}
+/* about section start */
+.about-title{
+    text-align: center;
+    margin-top: 80px;
+}
+.about-title h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 40px;
+
+}
+.booking-card{
+    height: 40px;
+    width: 70px;
+    background-color: aqua;
+}
+.about-link a{
+    position: absolute;
+    right: 150px;
+    bottom: 160px;
+    color: red;
+    font-size: 50px;
+}
+.about-section-card {
+    background: white;
+    position: absolute;
+    left: 155px;
+    bottom: 83px;
+    padding: 20px 40px;
+    text-align: center;
+}
+.about-right-section{
+    font-size: 18px;
+}
+/* scrollTop css Start */
+.scrollTop {
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    right: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    right: 33px;
+    bottom: 50px;
+    display: none;
+}
+.scrollTop a{
+    color: red;
+}
+/* why us section css start */
+.why-us-left-card .card-body{
+    margin-left: 25px;
+}
+.why-us-section{
+    background: #e2e8f0;
+    padding: 100px 0;
+}
+.why-us-left-card .card{
+    background: #f87171;
+    color: white;
+    margin-top: 60px;
+}
+.why-us-section-right .card {
+    margin-top: 80px;
+    transition: transform 0.5s ease-in-out;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-us-section-right .card-icon {
+    font-size: 55px;
+    margin-top: 30px;
+    text-align: center;
+    height: 90px;
+    width: 90px;
+    background: #fee2e2;
+    border-radius: 50%;
+    color: #b91c1c;
+}
+.why-us-section-right .card{
+    margin-top: 80px;
+    transition: transform 0.5s ease-in-out;
+}
+.why-us-section-right .card:hover{
+    transform: scale(1.1);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.175);
+}
+/* counter section css start */
+.counter-item {
+    text-align: center;
+    display: inline-block;
+    padding: 2px 44px;
+    align-items: center;
+    margin: 150px 0;
+    color: white;
+}
+
+.counter-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/counter-bg.jpg") center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* menu/mixitup section css start */
+.menu-section h1{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 60px;
+}
+.menu-btn{
+    padding: 8px 15px;
+    border: none;
+    background: white;
+    border-bottom: 3px solid #cbd5e1;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.menu-btn:hover{
+    color: red;
+    border-bottom: 3px solid red;
+    
+}
+.mixitup-control-active {
+    color: red;
+    border-bottom: 3px solid red;
+}
+/* testimonials section start */
+.testimonials-section{
+    background: #e2e8f0;
+    padding-bottom: 50px;
+}
+.testimonials-title{
+    margin-top: 100px;
+    text-align: center;
+}
+.testimonials-section h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.testimonials-img{
+    width: 170px;
+    height: 170px;
+    border: 2px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: red;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .4s ease;
+}
+/* events section css start */
+.event-section{
+    margin-top: 100px;
+}
+.even-title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.even-title h1{
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+.event-section .card:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out;
+}
+.events .card-1{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/events-1.jpg") bottom;
+    margin-bottom: 20px;
+}
+.events .card-2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/events-2.jpg") center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.events .card-3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/events-3.jpg") center center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.events .card-title h3{
+    font-weight: bold;
+    margin-top: 220px;
+    margin-bottom: 10px;
+}
+
+
+/* chefs section start */
+.chefs-section{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background: #e2e8f0;
+
+}
+.chefs-title{
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.chefs-title h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+.chefs-social-link a {
+    color: black;
+    margin: 4px 0;
+    font-size: 39px;
+    display: flex;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+}
+.chefs-social-link a:hover{
+    color: orange;
+}
+.chefs-social-link {
+    display:none;
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+.clefs-card :hover{
+    transform: scale(1.025);
+    transition: transform 0.5s ease-in-out;
+    display: block;
+}
+.clefs-card :hover .chefs-social-link{
+    display: block;
+    transition: 0.3s;
+}
+/* Booking Section start */
+.booking-section{
+    background: #e2e8f0;
+}
+.book-a-table h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+/* Gallary Section css start */
+.gallery-section{
+    background: #e2e8f0;
+}
+.gallery-text h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.gallery img{
+    filter: grayscale(100%);
+    transition: 0.5s;
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+}
+/* Contact Section css start */
+.contact-section{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.contact-section-title h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+.contact-section-icons{
+    background: #e2e8f0;
+    width: 100%;
+    height: 80px;
+
+}
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    background: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+.contact-icon a{
+    color: white;
+    align-items: center;
+}
+.contact-section .button{
+    color: white;
+    background: red;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.contact-section .button:hover{
+    border: 1px solid red;
+    color: red;
+    background: transparent;
+}
+.contact-form{
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,0.175) !important;
+}
+.footer-section{
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+/* footer section css start */
+.footer-social-icon{
+    font-size: 25px;
+
+}
+.footer-social-icon a {
+    color: #9ca3af;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #9ca3af;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.footer-social-icon a:hover{
+    border: 1px solid white;
+    color: white;
+}
